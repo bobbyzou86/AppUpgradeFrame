@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#454e56</color>
+	<color name="gray">#7b420b</color>
+    
+    <color name="appupgrade_black">#454e56</color>
+    <color name="appupgrade_gray">#7b420b</color>
+</resources>

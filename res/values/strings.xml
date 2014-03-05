@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">AppUpgrade</string>
+    <string name="app_update">Update</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_media_cloud">Media Cloud</string>
+    <string name="app_current_version">Current version:</string>
+    <string name="app_newest_version">Newest version:</string>
+    <string name="app_update_content">Update content:</string>
+    <string name="app_update_remind">Application must be updated to start!</string>
+    <string name="downloading_new_apk">Downloading new apk</string>
+    <string name="downloading_success">Downloading finished,please check in notifacation center</string>
+    <string name="downloading_terminated">Downloading terminated</string>
+</resources>

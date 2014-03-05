@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">AppUpgrade</string>
+    <string name="app_update">更新</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_media_cloud">媒体云</string>
+    <string name="app_current_version">当前版本号:</string>
+    <string name="app_newest_version">最新版本号:</string>
+    <string name="app_update_content">更新内容:</string>
+    <string name="app_update_remind">应用必须更新才能启动!</string>
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="432dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_up_list"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp" 
+    android:layout_gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_update"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="24dp" 
+   android:layout_marginLeft="20dp"
+   >
+   <ImageView android:layout_width="43dp"
+       android:layout_height="43dp"
+       android:src="@drawable/icon"
+       android:layout_marginRight="15dp"/>
+   <LinearLayout android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:orientation="vertical"
+   >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/app_name"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="15dp"/>
+   <LinearLayout android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:layout_marginTop="2dp"
+   >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/app_current_version"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/app_current_version"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="12dp"/>
+   </LinearLayout>
+   <LinearLayout android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_marginTop="2dp" 
+   >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/app_newest_version"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/app_newest_version"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="12dp"/>
+   </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="125dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:paddingTop="12dp"
+    android:paddingLeft="15dp"
+    android:paddingBottom="2dp"
+    android:paddingRight="7dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/pop_up_list_textbox">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/app_update_content"
+       android:textColor="@color/appupgrade_black"
+       android:textSize="15dp"/>
+   <TextView
+       android:id="@+id/update_content"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="5dp"
+       android:paddingRight="7dp"
+       android:focusable="true"
+       android:textColor="@color/appupgrade_black"
+       android:singleLine="false"  
+       android:scrollbars="vertical"
+       android:scrollbarThumbVertical="@drawable/pop_up_list_slider"
+       android:scrollbarStyle="outsideInset"
+       android:lineSpacingExtra="5dp"
+       android:scrollbarSize="5dp"
+       android:textSize="12dp"/>
+</LinearLayout>
+<TextView
+    android:id="@+id/update_remind"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="9dp"
+    android:text="@string/app_update_remind"
+    android:textColor="@color/appupgrade_gray"
+    android:textSize="15dp"
+    android:visibility="gone"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="39dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginTop="17dp">
+<Button
+     android:id="@+id/update"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_marginRight="9dp"
+     android:text="@string/app_update"
+     android:textSize="15dp"
+     android:textColor="@drawable/appupdate_dialog_button_font_style"
+     android:background="@drawable/appupdate_dialog_button_focus"
+     android:layout_weight="1"/>
+<Button
+     android:id="@+id/cancel"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:text="@string/app_cancel"
+     android:textSize="15dp"
+     android:textColor="@drawable/appupdate_dialog_button_font_style"
+     android:background="@drawable/appupdate_dialog_button_focus"
+     android:layout_weight="1"/>
+</LinearLayout>
+</LinearLayout>
