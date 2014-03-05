@@ -243,7 +243,8 @@ public class AppUpgrade {
         if (TESTING) {
             // TODO: TESTING mode!You MUST get the URL for downloading newest
             // version apk.
-            String url = "http://static.tieba.baidu.com/client/android/tiebaclient_5_6_1.apk?src=webtbGF";
+            String url = "http://static.tieba.baidu.com/client/android/tiebaclient_5_6_1.apk?src=webtbGF";// bad
+                                                                                                          // url
             return url;
         }
 		return null;
